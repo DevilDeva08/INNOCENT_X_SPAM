@@ -24,7 +24,7 @@ async def ping(e):
         jarvis = await e.reply(f"🧨")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await jarvis.edit(f"😁🇮 🇳 🇳 🇴 🇨 🇪 🇳 🇹 ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝕊𝔼𝕍𝔸 𝕄𝔸𝕀 ℍ𝔸𝕁𝕀ℝ😁🫡 🅷🆄🅺🆄🅼 🅺🅰🆁🅾 🆂🅸🆁 🫡  [𝐌αƨтɛя](https://t.me/its_innocent_boy_8202){mp} MS")
+        await jarvis.edit(f"😁🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝕊𝔼𝕍𝔸 𝕄𝔸𝕀 ℍ𝔸𝕁𝕀ℝ😁🫡 🅷🆄🅺🆄🅼 🅺🅰🆁🅾 🆂🅸🆁 🫡  [𝐌αƨтɛя](https://t.me/TFW_FOUNDER){mp} MS")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`🖐𝓢𝓣𝓞𝓟𝓘𝓝𝓖 🇮 🇳 🇳 🇴 🇨 🇪 🇳 🇹 ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓...`")
+        await e.reply(f"`🖐𝓢𝓣𝓞𝓟𝓘𝓝𝓖 🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓...`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» A҉D҉D҉I҉N҉G҉ 🇮 🇳 🇳 🇴 🇨 🇪 🇳 🇹 ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 乃ⓞ𝐓 sᴜᴅᴏ.... ")
+        ok = await event.reply(f"» A҉D҉D҉I҉N҉G҉ 🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 乃ⓞ𝐓 sᴜᴅᴏ.... ")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -117,13 +117,13 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"▄︻┻ 𝙏𝙃𝙄𝙎 𝙐𝙎𝙀𝙍 𝙄𝙎 𝘼𝙇𝙍𝙀𝘼𝘿𝙔 𝘼 🇮 🇳 🇳 🇴 🇨 🇪 🇳 🇹 ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝐒𝐔𝐃𝐎 𝐔𝐒𝐄𝐑 ︻┳═─ !!")
+            await ok.edit(f"▄︻┻ 𝙏𝙃𝙄𝙎 𝙐𝙎𝙀𝙍 𝙄𝙎 𝘼𝙇𝙍𝙀𝘼𝘿𝙔 𝘼 🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝐒𝐔𝐃𝐎 𝐔𝐒𝐄𝐑 ︻┳═─ !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `🤦🏻‍♂️🙆🏻‍♂️𝒘𝒂𝒊𝒕 𝒌𝒂𝒓 𝒃𝒉𝒂𝒊 🇮 🇳 🇳 🇴 🇨 🇪 🇳 🇹 ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝒔𝒖𝒓𝒖 𝒉𝒐 𝒓𝒂𝒉𝒂 𝒉𝒂𝒊...`")
+            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `🤦🏻‍♂️🙆🏻‍♂️𝒘𝒂𝒊𝒕 𝒌𝒂𝒓 𝒃𝒉𝒂𝒊🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝒔𝒖𝒓𝒖 𝒉𝒐 𝒓𝒂𝒉𝒂 𝒉𝒂𝒊...`")
             heroku_var["SUDO_USERS"] = newsudo    
 
     elif event.sender_id in SUDO_USERS:
@@ -180,9 +180,9 @@ async def removesudo(event):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
 async def show_sudo_users(event):
     if event.sender_id == OWNER_ID:
-        sudo_users_list = "🇮 🇳 🇳 🇴 🇨 🇪 🇳 🇹 ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝗖𝗨𝗥𝗥𝗘𝗡𝗧 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦 𝗟𝗜𝗦𝗧:\n"
+        sudo_users_list = "🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝗖𝗨𝗥𝗥𝗘𝗡𝗧 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦 𝗟𝗜𝗦𝗧:\n"
         for user_id in SUDO_USERS:
             sudo_users_list += f"- {user_id}\n"
         await event.reply(sudo_users_list)
     else:
-        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 🇮 🇳 🇳 🇴 🇨 🇪 🇳 🇹 ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝗢𝗪𝗡𝗘𝗥.")
+        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 🇹 🇫 🇼  ꭙ 𝕊ℙ𝔸𝕄 乃ⓞ𝐓 𝗢𝗪𝗡𝗘𝗥.")
