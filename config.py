@@ -27,10 +27,10 @@ BOT_TOKEN8 = getenv("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = getenv("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = getenv("BOT_TOKEN10", default=None)
 
-SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="7187959019").split()))
+SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="7538572906 , 6838326214 , 7507408570").split()))
 for x in Innotron:
     SUDO_USERS.append(x)
-OWNER_ID = int(getenv("OWNER_ID", default="6961211249"))
+OWNER_ID = int(getenv("OWNER_ID", default="7828753331"))
 SUDO_USERS.append(OWNER_ID)
 
 
